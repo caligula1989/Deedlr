@@ -5,6 +5,7 @@ python/lib/
 python/local/
 python/src/
 python/share/
+python/deedlr/settings_local.py
 
 *.pyc
 *.log
