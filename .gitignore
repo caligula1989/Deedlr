@@ -1,0 +1,11 @@
+python/.idea/
+python/bin/
+python/include/
+python/lib/
+python/local/
+python/src/
+python/share/
+
+*.pyc
+*.log
+
