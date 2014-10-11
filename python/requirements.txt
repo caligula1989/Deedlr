@@ -1,0 +1,6 @@
+Django==1.6.6
+gunicorn
+dj-static
+psycopg2
+dj-database-url
+South
