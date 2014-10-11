@@ -5,6 +5,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     url(r'^$', 'deedlr.views.home', name='home'),
+    url(r'^register-by-token/(?P<backend>[^/]+)/$', 'deedlr.views.register_by_access_token'),
 
     url('', include('django.contrib.auth.urls', namespace='auth')),
     url('', include('social.apps.django_app.urls', namespace='social')),

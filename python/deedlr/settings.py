@@ -21,6 +21,8 @@ INSTALLED_APPS = (
 
     'south',
     'social.apps.django_app.default',
+    'rest_framework',
+    'rest_framework.authtoken',
 
     'deedlr'
 )

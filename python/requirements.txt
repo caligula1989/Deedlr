@@ -5,3 +5,4 @@ psycopg2
 dj-database-url
 South
 python-social-auth
+djangorestframework
